@@ -1,0 +1,11 @@
+sw/vehicle/.pio
+sw/vehicle/.vscode/.browse.c_cpp.db*
+sw/vehicle/.vscode/c_cpp_properties.json
+sw/vehicle/.vscode/launch.json
+sw/vehicle/.vscode/ipch
+sw/remote/.pio
+sw/remote/.vscode/.browse.c_cpp.db*
+sw/remote/.vscode/c_cpp_properties.json
+sw/remote/.vscode/launch.json
+sw/remote/.vscode/ipch
+
