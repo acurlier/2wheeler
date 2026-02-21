@@ -1,4 +1,4 @@
-#include "MX1508_Simple.h"
+#include "MX1508_simple.h"
 
 MX1508_Simple::MX1508_Simple(uint8_t pin1, uint8_t pin2, bool inverted) {
   _pin1 = pin1;

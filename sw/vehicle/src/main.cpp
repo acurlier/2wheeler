@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <RH_ASK.h>
 #include <SPI.h>
-#include "MX1508_Simple.h"
+#include "MX1508_simple.h"
 
 // Pins
 #define RX_PIN PB12
@@ -47,7 +47,7 @@ void loop() {
     int rightPWM = 0;
 
     if (msg.pairing == MY_PAIRING) {
-      int minPWM = 120; // no movement below this setpoint
+      int minPWM = 130; // no movement below this setpoint
       if (msg.speed != 0) {
         msg.speed = map(msg.speed, 0, 255, minPWM, 255);
         int axialSpeedSetpoint = msg.forward ? msg.speed : -msg.speed;
